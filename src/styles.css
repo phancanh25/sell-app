@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* Resetting margin, padding, and border */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; /* Optional: Makes sure padding and border are included in the element's total width and height */
+}
+
+/* Additional resets */
+body {
+    font-family: Arial, sans-serif; /* Resetting default font */
+    line-height: 1.6; /* Resetting default line height for better readability */
+}

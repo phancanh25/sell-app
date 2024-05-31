@@ -1,0 +1,29 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .info {
+    color: #333;
+}
+.footer .info p {
+    margin: 5px 0;
+}
+.footer .info p:first-child {
+    font-weight: bold;
+}
+.footer .logo {
+    margin-right: 20px;
+}
+.footer .logo img {
+    height: 50px;
+}
+.footer .verified {
+    display: flex;
+    align-items: center;
+}
+.footer .verified img {
+    height: 50px;
+}

@@ -1,0 +1,111 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2E9ED5;
+    flex-direction: column;
+}
+
+/* .header-wrapper{
+    width: 100%;
+} */
+
+.header-mid {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+    width: 1440px;
+}
+
+.user-menu {
+    margin-right: 10px;
+}
+
+
+.logo-img {
+    height: 40px;
+}
+
+.search-container {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.user-login,
+.user-account {
+    margin-left: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.cart {
+    position: relative;
+    margin-left: 20px;
+}
+
+.cart-icon {
+    font-size: 24px;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+.header-bottom {
+    width: 100%;
+    background-color: #1a4a75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 1440px;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.navbar a:first-child {
+    padding: 12px 15px;
+    background-color: #135a9d; /* Different background color for the first item */
+}
+.navbar .menu-icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+.navbar a.active {
+    color: yellow;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
