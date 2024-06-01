@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from '../@core/core.module';
 import { LayoutModule } from './layout/layout.module';
 import { RouteModule } from './route.module';
+import { NgDynamicBreadcrumbModule } from 'ng-dynamic-breadcrumb';
 
 @NgModule({
     declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { RouteModule } from './route.module';
         CoreModule,
         LayoutModule,
         RouteModule,
+        NgDynamicBreadcrumbModule
     ],
     providers: [provideClientHydration()],
     bootstrap: [AppComponent],
